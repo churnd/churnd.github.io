@@ -11,11 +11,10 @@ highlighter: rouge
 title : churnd
 tagline:
 author : churnd
-  name :
-  email : churnd@gmail.com
-  github : churnd
-  twitter : churnd
-  feedburner :
+name : churnd
+email : churnd@gmail.com
+github : churnd
+twitter : churnd
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
