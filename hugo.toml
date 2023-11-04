@@ -1,0 +1,4 @@
+baseURL = "https://churnd.github.io"
+languageCode = "en-us"
+title = "churnd.net blog"
+theme = "PaperMod"

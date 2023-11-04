@@ -1,0 +1,11 @@
++++
+title = "Easyroot"
+Categories = []
++++
+<a href="http://www.androidcentral.com/google-pulls-easy-root-market" target="_blank">Google pulled Easy Root</a>?  Why does this sound <a href="http://churnd.net/2010/06/28/iphone-vs-android/" target="_self">familiar</a>?  I&#8217;m not even going to try to compare the number of Apple&#8217;s App Store rejections with Google&#8217;s.  I know Apple has far more.  It&#8217;s not about that.  It&#8217;s about doing something you said you wouldn&#8217;t do.  Apple clearly stated they have a right to reject App Store submissions.  Google said they would never do that & that anyone should be free to develop whatever application they wanted.  Google, how&#8217;s that crow?
+
+<!--more-->
+
+An aside&#8230; I tried an HTC EVO this weekend which is supposed to be Android&#8217;s current flagship phone (or one of them).  I&#8217;ll be perfectly honest, using Android was almost painful.  Everything just seemed so clunky and not-smooth&#8230; not at all what I&#8217;m used to with 4 years iPhone experience.  Swiping on it made me think of dragging something across sandpaper rather than the buttery smooth action I&#8217;m used to on the iPhone.  To be fair, the guy that had it said he just bought it a few days ago & he hadn&#8217;t so much as installed an application that didn&#8217;t come with the phone.  Also, to me, it seemed a little too big to be a phone.  However, the larger screen was a nice plus when he showed me the one feature I actually DID like, photo & video recording.  The quality seemed very good.  I asked him how he liked it overall far&#8230; his response was very &#8220;meh&#8221;&#8230; just unimpressed.  His biggest complaint was battery life.  He said any considerable usage would drain his battery in half a day.  That&#8217;s pretty bad.  He&#8217;s considering taking it back & switching back to Verizon & hope the iPhone gets released with Verizon in January.
+
+I have no qualms against Google, I love a lot of their services.  I&#8217;m definitely disappointed that their relationship with Apple has been going steadily downhill since Eric Schmidt resigned from Apple&#8217;s board of directors.  I think it would have been the ultimate partnership had it continued.

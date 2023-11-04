@@ -1,0 +1,34 @@
++++
+title = "Demise of the Xserve"
+Categories = []
++++
+<a class="zem_slink" title="NASDAQ: AAPL" rel="yahoofinance" href="http://finance.yahoo.com/q?s=AAPL">Apple</a> recently announced that <a href="http://www.apple.com/xserve/resources.html" target="_blank">on January 31</a>, they will stop manufacturing the <a href="http://www.apple.com/xserve/" target="_blank">Xserve</a>.  My initial reaction, like many <a href="http://www.google.com/search?&rls=en&q=site:http://lists.apple.com/archives/macos-x-server/+xserve+is+dead&ie=UTF-8&oe=UTF-8" target="_blank">other Xserve admins</a>, was shock.  All of a sudden, all this hardware became obsolete:
+
+<p style="text-align:left;">
+  <a href="http://www.flickr.com/photos/churnd/5130042064/"><img class="aligncenter" title="Xserve Rack" src="http://farm5.static.flickr.com/4055/5130042064_f71d00bcb0_b_d.jpg" alt="Xserve Rack" width="275" height="368" /></a><br /> <!--more-->
+  
+  <br /> The more I thought about it & read the reactions of other Apple admins, I realized a few things:
+</p>
+
+1.  Apple never posted any form of commitment to keep the Xserve around.  Other hardware vendors such as Dell, HP, IBM, Sun/Oracle, do&#8230; they&#8217;re called <a href="http://en.wikipedia.org/wiki/Technology_roadmap" target="_blank">Roadmaps</a>, which let customers know what their plans are for the future.
+2.  Apple has never shown much interest in the enterprise market.  They brought in the Xserve to satisfy demands of <a class="zem_slink" title="Information technology" rel="wikipedia" href="http://en.wikipedia.org/wiki/Information_technology">IT professionals</a> who wanted better options for supporting Macs in the workplace.
+3.  Apple&#8217;s bottom line is sales, and the Xserve was one of their <a href="http://www.google.com/search?&rls=en&q=xserve+worst+selling&ie=UTF-8&oe=UTF-8" target="_blank">worst selling products</a>.
+
+It&#8217;s important to note that Apple is not discontinuing the <a class="zem_slink" title="Mac OS X Server" rel="homepage" href="http://www.apple.com/server/macosx/">OS X Server</a> operating system itself.  They will continue to sell it on their own hardware, the <a title="Mac Pro Server" href="http://www.apple.com/macpro/features/macosx.html" target="_blank">Mac Pro</a> and <a title="Mac Mini Server" href="http://www.apple.com/macmini/server/" target="_blank">Mac Mini</a>.  These options may suit small businesses or the home enthusiast, but you won&#8217;t find either in an enterprise class datacenter.  John Welch wrote an <a title="Xserve is dead... so now what?" href="http://www.macworld.com/article/155501/2010/11/xserve.html" target="_blank">article for Macworld</a> explaining why in better detail.  The gist of it is this:  neither the Mac Pro or Mac Mini have hot swappable parts or <a title="OS X Server Features" href="http://www.apple.com/xserve/features/server.html" target="_blank">remote management tools</a> such as Lights Out, both of which are a necessity when managing servers on a large scale where high availability is critical.
+
+One of the things that struck me as most peculiar is that Apple never announced a roadmap for the Xserve.  Enterprise IT is a very costly line of work, one that requires extensive planning.  A roadmap is against Apple&#8217;s very core identity, to keep future plans a secret which builds customer anticipation.  The fact that the Xserve was even adopted in the enterprise marketplace was nothing short of a miracle.  I wouldn&#8217;t see that happening with any other vendor.
+
+### Future of OS X Server
+
+I don&#8217;t think Apple is shortsighted enough to not realize the importance of having the Mac in the enterprise and educational environments.  They wouldn&#8217;t have left OS X Server around just to leave it restricted to the Mac Mini and Mac Pro, because they know there will be even less sales on those platforms.  They also know neither will make it&#8217;s way to the enterprise datacenter.  The Xserve hardware was introduced in a time where one server meant one physical 1-2U box per server OS.  These days, server operating systems are virtual, consolidating several server operating systems to one larger box called a hypervisor.  It&#8217;s a winning design because it separates the server&#8217;s dependency from the hardware itself, which makes for easier management and more efficient use of resources.
+
+My prediction is that sometime early next year, Apple will announce OS X Server to be fully supported to run in a virtual environment, most likely VMware ESX.  VMware already has a dominating presence in the enterprise datacenter as hypervisor of choice for virtualizing server operating systems.  Several key points to why I think this will happen:
+
+*   Apple is always pushing the environmental envelope.  The Xserve itself is not the most environmentally friendly product due to power consumption.  A virtual server is a lot greener.
+*   OS X Server is already fully supported to run in <a title="VMware Fusion" href="http://www.vmware.com/products/fusion/" target="_blank">VMware Fusion</a>, <a title="Parallels Desktop" href="http://www.parallels.com/products/desktop/" target="_blank">Parallels Desktop</a>, and <a title="Virtualbox" href="http://www.virtualbox.org/" target="_blank">Virtualbox</a>.  This is OK currently because the machine it&#8217;s running on is already Apple Hardware.
+*   Snow Leopard Server started &#8220;phoning home&#8221; with the activation of a license key.  You could no longer use the same key more than once.  This is necessary for Apple to abandon the requirement of installing on Apple hardware.
+*   Apple announced a sneak peak to <a title="OS X Lion" href="http://www.apple.com/macosx/lion/" target="_blank">OS X Lion</a> recently, but no mention of Lion Server.  The past 3-4 OS X major updates have been complimented with a server counterpart.  My hunch says Apple is waiting because Lion Server will be fully optimized to run virtually.
+*   Apple has been increasingly gearing OS X client towards compatibility with other vendor technologies which are more prominent in the enterprise, such as Active Directory and Exchange.
+*   OS X Server still provides the best way to manage OS X clients in any kind of heterogenous environment thanks to MCX.  No other product exists that can beat the combination of affordability and power that OS X Server provides.
+
+My hunch also tells me this announcement will come around January&#8217;s Mac Event and Macworld Expo.  We&#8217;ll see Apple modify OS X Server licensing to make it compatible to run in VMware ESX, regardless of the hardware ESX is on.  It will not be a big announcement, because Apple is not focused on enterprise IT.  However, all signs are pointing towards the fact that Apple understands OS X Server means more OS X clients in education & enterprise, which means more OS X clients for the home user, which definitely appeals to their bottom line.
